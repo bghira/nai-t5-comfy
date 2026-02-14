@@ -27,7 +27,7 @@ Restart ComfyUI.
 ### Dependencies
 
 - `torch>=2.0`
-- `nai-t5-wrapper>=1.0.0`
+- `nai-t5-wrapper>=1.1.0`
 - `transformers>=4.40`
 - `sentencepiece`
 
