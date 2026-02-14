@@ -2,7 +2,7 @@
 
 **SPDX-License-Identifier: GPL-3.0-or-later**
 
-Drop-in replacement T5 text encoder nodes for ComfyUI using NovelAI's optimized T5 implementation ([nai-t5-wrapper](https://github.com/novelai/nai-t5-wrapper)). Supports workflows that use T5-based text encoders such as FLUX, Stable Diffusion 3, PixArt, and WAN.
+Drop-in replacement T5 text encoder nodes for ComfyUI using NovelAI's optimized T5 implementation ([nai-t5-wrapper](https://github.com/bghira/nai-t5-wrapper)). Supports workflows that use T5-based text encoders such as FLUX, Stable Diffusion 3, PixArt, and WAN.
 
 ## Features
 
@@ -17,7 +17,7 @@ Clone into your `ComfyUI/custom_nodes` directory and install dependencies:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/novelai/nai-t5-comfy
+git clone https://github.com/bghira/nai-t5-comfy
 cd nai-t5-comfy
 pip install -r requirements.txt
 ```
